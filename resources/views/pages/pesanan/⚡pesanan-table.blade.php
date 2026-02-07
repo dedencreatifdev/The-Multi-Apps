@@ -15,7 +15,7 @@ new class extends Component {
 
     public function userList()
     {
-        return User::cursorPaginate(10);
+        return User::cursorPaginate(15);
     }
 };
 ?>
