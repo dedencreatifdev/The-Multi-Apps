@@ -35,10 +35,10 @@
     <div class="wrapper">
 
         <!-- Navbar -->
-        <livewire:pages::komponen.menu-navbar lazy />
+        <livewire:pages::komponen.menu-navbar />
 
         <!-- Main Sidebar Container -->
-        <livewire:pages::komponen.menu-sidebar lazy />
+        <livewire:pages::komponen.menu-sidebar />
 
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
