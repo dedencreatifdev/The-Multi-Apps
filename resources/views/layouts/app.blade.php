@@ -22,6 +22,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <link rel="stylesheet" href="{{ asset('style/plugins/overlayScrollbars/css/OverlayScrollbars.min.css') }}">
     <!-- Theme style -->
     <link rel="stylesheet" href="{{ asset('style/dist/css/adminlte.min.css') }}">
+    @stack('css')
 
     <!-- Themes JS -->
     {{-- jQuery --}}
@@ -30,6 +31,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="{{ asset('style/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     {{-- AdminLTE App --}}
     <script src="{{ asset('style/dist/js/adminlte.min.js') }}"></script>
+    @stack('js')
 
 </head>
 
