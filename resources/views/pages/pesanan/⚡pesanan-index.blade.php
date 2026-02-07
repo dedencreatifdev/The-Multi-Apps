@@ -3,7 +3,7 @@
 use Livewire\Component;
 use Livewire\Attributes\Title;
 
-new #[Title('Pesanan')] class  extends Component {
+new #[Title('Pesanan')] class extends Component {
     public $title = 'My Post';
 };
 ?>
@@ -35,20 +35,22 @@ new #[Title('Pesanan')] class  extends Component {
     <script src="{{ asset('style') }}/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
 
     <script>
-        $(function () {
-          $("#example1").DataTable({
-            "responsive": true, "lengthChange": false, "autoWidth": false,
-            "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-          }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
-          $('#example2').DataTable({
-            "paging": true,
-            "lengthChange": false,
-            "searching": false,
-            "ordering": true,
-            "info": true,
-            "autoWidth": false,
-            "responsive": true,
-          });
+        $(function() {
+            $("#example1").DataTable({
+                "responsive": true,
+                "lengthChange": false,
+                "autoWidth": false,
+                "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+            }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+            $('#example2').DataTable({
+                "paging": true,
+                "lengthChange": false,
+                "searching": false,
+                "ordering": true,
+                "info": true,
+                "autoWidth": false,
+                "responsive": true,
+            });
         });
-      </script>
+    </script>
 @endpush
