@@ -39,10 +39,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <div class="wrapper">
 
         <!-- Navbar -->
-        <livewire:pages::komponen.menu-navbar />
+        <livewire:pages::komponen.menu-navbar lazy />
 
         <!-- Main Sidebar Container -->
-        <livewire:pages::komponen.menu-sidebar />
+        <livewire:pages::komponen.menu-sidebar lazy />
 
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
