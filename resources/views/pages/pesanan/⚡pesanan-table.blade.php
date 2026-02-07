@@ -26,8 +26,8 @@ new class extends Component {
             <div class="card card-outline card-danger">
                 <div class="card-header">
                     <h3 class="card-title">
-                        <i class="fas fa-envelope"></i>
-                        Buttons
+                        <i class="fas fa-envelope mr-3"></i>
+                        Pesanan
                     </h3>
                 </div>
                 <div class="card-body p-0">
