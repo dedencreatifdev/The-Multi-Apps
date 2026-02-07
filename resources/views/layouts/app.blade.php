@@ -72,7 +72,7 @@
             </div>
         </aside>
 
-        <livewire:pages::komponen.menu-footer lazy />
+        <livewire:pages::komponen.menu-footer />
 
     </div>
 </body>
