@@ -35,7 +35,7 @@ new class extends Component {
                         <thead class="bg-danger">
                             <tr>
                                 <th>No</th>
-                                <th>No Pesanan</th>
+                                <th>No pesanan</th>
                                 <th>Nama</th>
                                 <!-- <th>Alamat</th> -->
                                 <th>No telepon</th>
