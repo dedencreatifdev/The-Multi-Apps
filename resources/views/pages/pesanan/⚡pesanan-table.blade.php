@@ -31,7 +31,7 @@ new class extends Component {
                     </h3>
                 </div>
                 <div class="card-body p-0">
-                    <table class="table table-sm table-striped">
+                    <table id="example1" class="table table-sm table-striped dataTable">
                         <thead class="bg-danger">
                             <tr>
                                 <th>No</th>
