@@ -29,7 +29,7 @@ new class extends Component {
                 <div class="inner">
                     <h3>{{ $this->jumlahUser() }}</h3>
 
-                    <p>New Orders</p>
+                    <p>Users</p>
                 </div>
                 <div class="icon">
                     <i class="ion ion-bag"></i>
