@@ -11,8 +11,8 @@ new #[Title('Pesanan')] class extends Component {
 
 
 <div>
-    <livewire:pages::pesanan.pesanan-info />
-    <livewire:pages::pesanan.pesanan-table />
+    <livewire:pages::pesanan.pesanan-info lazy />
+    <livewire:pages::pesanan.pesanan-table lazy />
 </div>
 @push('css')
     <link rel="stylesheet" href="{{ asset('style/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css') }}">
