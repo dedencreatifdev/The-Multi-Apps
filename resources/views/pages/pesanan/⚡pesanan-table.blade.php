@@ -37,7 +37,7 @@ new class extends Component {
                                 <th>No</th>
                                 <th>No Pesanan</th>
                                 <th>Nama</th>
-                                <th>Alamat</th>
+                                <!-- <th>Alamat</th> -->
                                 <th>No telepon</th>
                             </tr>
                         </thead>
@@ -47,7 +47,7 @@ new class extends Component {
                                     <td></td>
                                     <td>{{ $item->name }}</td>
                                     <td>Deden</td>
-                                    <td>bandar lampung Unit 4 tulang Bawang</td>
+                                    <!-- <td>bandar lampung Unit 4 tulang Bawang</td> -->
                                     <td>082280065006</td>
 
                                 </tr>
